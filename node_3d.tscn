@@ -1,9 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://swkimkjfy68u"]
+[gd_scene load_steps=3 format=3 uid="uid://swkimkjfy68u"]
 
 [ext_resource type="ArrayMesh" uid="uid://cr4migv0khpek" path="res://dog.obj" id="1_jdm62"]
+[ext_resource type="ArrayMesh" uid="uid://cbory5ygdc661" path="res://cat.obj" id="2_08u0g"]
 
 [node name="Node3D" type="Node3D"]
 
-[node name="Test" type="MeshInstance3D" parent="."]
-transform = Transform3D(-1.56801, -0.0170103, -0.85647, -0.0260226, 1.6386, 5.44896e-10, 1.21325, 0.0131617, -1.1069, 0.210956, 0.240102, 0.366561)
+[node name="Dog" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.305321, -0.0638045, -1.3818, -0.105565, 1.63563, -0.0434657, 1.95626, 0.0783049, -0.218008, 0.210956, 0.240102, 0.366561)
 mesh = ExtResource("1_jdm62")
+
+[node name="Cat" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.72066, 0, 2.3819)
+mesh = ExtResource("2_08u0g")
