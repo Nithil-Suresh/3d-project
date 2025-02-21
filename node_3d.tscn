@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://swkimkjfy68u"]
+[gd_scene load_steps=7 format=3 uid="uid://swkimkjfy68u"]
 
 [ext_resource type="PackedScene" uid="uid://b0s183eby7ha5" path="res://simple-farm-house/source/farm house.fbx" id="1_rtuns"]
 [ext_resource type="PackedScene" uid="uid://bov45syvaiclb" path="res://shun-the-sheep/source/Shun.fbx" id="2_pj84x"]
 [ext_resource type="PackedScene" uid="uid://cnmgibfhmbaas" path="res://schleich_toy_holstein_cow_model_gltf/scene.gltf" id="3_4xvy8"]
 [ext_resource type="PackedScene" uid="uid://u3lu018glwiq" path="res://round_hay_bale_rlcay_raw/Round_Hay_Bale_rlCay_Raw.fbx" id="4_e4pwr"]
 [ext_resource type="PackedScene" uid="uid://le6dg2vx44s7" path="res://dog.glb" id="5_1rx7i"]
+[ext_resource type="PackedScene" uid="uid://cfwk8uhfs0qsx" path="res://a_brown_horse_with_blaze/scene.gltf" id="6_0wu85"]
 
 [node name="Node3D" type="Node3D"]
 
@@ -34,3 +35,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.67301, 0, 6.45355)
 
 [node name="dog2" parent="." instance=ExtResource("5_1rx7i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.932729, 0, 5.39836)
+
+[node name="Sketchfab_Scene2" parent="." instance=ExtResource("6_0wu85")]
+transform = Transform3D(0.005, 0, 0, 0, 0.005, 0, 0, 0, 0.005, -3.12549, 0, 3.52172)
+
+[node name="Sketchfab_Scene3" parent="." instance=ExtResource("6_0wu85")]
+transform = Transform3D(0.005, 0, 0, 0, 0.005, 0, 0, 0, 0.005, -3.79937, 0, 3.35415)
