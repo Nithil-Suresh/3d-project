@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://swkimkjfy68u"]
+[gd_scene load_steps=6 format=3 uid="uid://swkimkjfy68u"]
 
 [ext_resource type="PackedScene" uid="uid://b0s183eby7ha5" path="res://simple-farm-house/source/farm house.fbx" id="1_rtuns"]
 [ext_resource type="PackedScene" uid="uid://bov45syvaiclb" path="res://shun-the-sheep/source/Shun.fbx" id="2_pj84x"]
 [ext_resource type="PackedScene" uid="uid://cnmgibfhmbaas" path="res://schleich_toy_holstein_cow_model_gltf/scene.gltf" id="3_4xvy8"]
 [ext_resource type="PackedScene" uid="uid://u3lu018glwiq" path="res://round_hay_bale_rlcay_raw/Round_Hay_Bale_rlCay_Raw.fbx" id="4_e4pwr"]
+[ext_resource type="PackedScene" uid="uid://le6dg2vx44s7" path="res://dog.glb" id="5_1rx7i"]
 
 [node name="Node3D" type="Node3D"]
 
@@ -30,3 +31,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.29584, 0, 6.12346)
 
 [node name="Round_Hay_Bale_rlCay_Raw3" parent="." instance=ExtResource("4_e4pwr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.67301, 0, 6.45355)
+
+[node name="dog2" parent="." instance=ExtResource("5_1rx7i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.932729, 0, 5.39836)
